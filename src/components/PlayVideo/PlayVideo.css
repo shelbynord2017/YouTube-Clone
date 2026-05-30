@@ -145,3 +145,23 @@
     color: #5a5a5a;
 }
 
+@media (max-width: 900px){
+    .play__video {
+        flex-basis: 100%;
+    }
+
+    .play__video iframe {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .video__description {
+        padding-left: 0;
+    }
+
+    .play__video .play__video--info span{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}

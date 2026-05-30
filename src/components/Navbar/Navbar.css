@@ -45,3 +45,26 @@ nav {
     width: 35px;
     border-radius: 50px;
 }
+
+@media (max-width: 900px) {
+    .menu__icon {
+        display: none;
+    }
+
+    .nav__right img {
+        display: none
+    }
+
+    .nav__right .user__icon {
+        display: block;
+        width: 30px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .nav__middle .search__box input{
+        width: 100px;
+    }
+}

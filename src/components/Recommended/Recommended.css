@@ -17,8 +17,17 @@
     flex-basis: 49%;
 }
 
-.video__info h4 {
+.video__info h4 { 
     font-size: 13px;
     margin-bottom: 5px;
 }
 
+.video__info p {
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .recommended {
+        flex-basis: 100%;
+    }
+}
